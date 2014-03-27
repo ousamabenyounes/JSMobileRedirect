@@ -11,11 +11,9 @@ function JSMobileRedirect()
     {
 	return "android";
     }
-    else if (userAgent.indexOf("series60") >=0 || userAgent.indexOf("htc") >=0
-       || userAgent.indexOf("symbian") >=0 || userAgent.indexOf("windows ce") >=0
-       || userAgent.indexOf("blackberry") >=0 || userAgent.indexOf("palm") >=0)
+    else if (userAgent.indexOf("windows ce") >=0)
     {
-	return "mobile";
+	return "windows";
     } else {
 	return "autre";
     }
