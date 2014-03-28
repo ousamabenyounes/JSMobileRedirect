@@ -15,7 +15,7 @@ function JSMobileRedirect()
     {
 	return "windows";
     } else {
-	return "autre";
+	return "other";
     }
 }
 
