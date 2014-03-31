@@ -19,3 +19,15 @@ function JSMobileRedirect()
     }
 }
 
+
+function redirectUA()
+{
+    var url = new Array();
+    url['other']   = 'infinite_flight_allstores.html';
+    url['windows'] = 'http://goo.gl/ttiuLW';
+    url['android'] = 'http://goo.gl/vXvQ2L';
+    url['iphone']  = 'http://goo.gl/j6ZUNO';
+
+    type = JSMobileRedirect();
+    window.location = url[type];
+}
