@@ -16,14 +16,14 @@ or just download zip file:
     https://github.com/ousamabenyounes/JSMobileRedirect/archive/master.zip
 
 
-2 - Add the link to redirect.html on your Newsletter or webPage:
+2 - Add this script to your "head" Section
 
-    <a href="redirect.html">Download</a>
-
-3 - Configure your redirect.html urls:
+    <script src="JSMobileRedirect.js" type="text/javascript"></script>
 
 
-Open redirect.html file and set up your stores links:
+3 - Configure your JSMobileRedirect.js urls:
+
+Open JSMobileRedirect.js file and set up your stores links:
 
 <pre>url['other']   = 'infinite_flight_allstores.html';
 url['windows'] = 'http://goo.gl/ttiuLW';
