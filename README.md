@@ -20,6 +20,9 @@ or just download zip file:
 
     <script src="JSMobileRedirect.js" type="text/javascript"></script>
 
+And then Add the download link:
+    
+    <a href="#" onClick="redirectUA()">download</a>
 
 3 - Configure your JSMobileRedirect.js urls:
 
