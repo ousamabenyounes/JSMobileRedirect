@@ -42,12 +42,13 @@ url['iphone']  = 'http://goo.gl/j6ZUNO';
 
 Newsletter Install
 ================
+1 - First get the newsletter directory content
 
-1 - Add the download link on your newsletter content:
+2 - Add the download link on your newsletter template:
     
     <a href="redirect.html">download</a>
 
-2 - Configure your JSMobileRedirect.js urls:
+3 - Configure your JSMobileRedirect.js urls:
 
 Open JSMobileRedirect.js file and set up your stores links:
 
