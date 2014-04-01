@@ -3,7 +3,7 @@ JSMobileRedirect
 
 Simple JS Script for mobile redirection  
 This Script redirect your visitors to the correct web app store analyzing the received user agent.  
-
+Actual available stores are: android, itunes, windows.  
 
 Download
 ================
@@ -37,9 +37,6 @@ Open JSMobileRedirect.js file and set up your stores links:
 url['windows'] = 'http://goo.gl/ttiuLW';
 url['android'] = 'http://goo.gl/vXvQ2L';
 url['iphone']  = 'http://goo.gl/j6ZUNO';
-
-type = JSMobileRedirect();
-window.location = url[type]; 
 </pre>
 
 
@@ -58,9 +55,6 @@ Open JSMobileRedirect.js file and set up your stores links:
 url['windows'] = 'http://goo.gl/ttiuLW';
 url['android'] = 'http://goo.gl/vXvQ2L';
 url['iphone']  = 'http://goo.gl/j6ZUNO';
-
-type = JSMobileRedirect();
-window.location = url[type]; 
 </pre>
 
 
