@@ -4,10 +4,11 @@ JSMobileRedirect
 Simple JS Script for mobile redirection  
 This Script redirect your visitors to the correct web app store analyzing the received user agent.  
 
-Install
+
+Download
 ================
 
-1 - Get this repository:
+Get this repository:
 
     $ git clone https://github.com/ousamabenyounes/JSMobileRedirect
 
@@ -16,15 +17,40 @@ or just download zip file:
     https://github.com/ousamabenyounes/JSMobileRedirect/archive/master.zip
 
 
-2 - Add this script to your "head" Section
+Basic Install
+================
+
+
+1 - Add this script to your "head" Section
 
     <script src="JSMobileRedirect.js" type="text/javascript"></script>
 
-And then Add the download link:
+2 - Then Add the download link:
     
     <a href="#" onClick="redirectUA()">download</a>
 
 3 - Configure your JSMobileRedirect.js urls:
+
+Open JSMobileRedirect.js file and set up your stores links:
+
+<pre>url['other']   = 'infinite_flight_allstores.html';
+url['windows'] = 'http://goo.gl/ttiuLW';
+url['android'] = 'http://goo.gl/vXvQ2L';
+url['iphone']  = 'http://goo.gl/j6ZUNO';
+
+type = JSMobileRedirect();
+window.location = url[type]; 
+</pre>
+
+
+Newsletter Install
+================
+
+1 - Add the download link on your newsletter content:
+    
+    <a href="redirect.html">download</a>
+
+2 - Configure your JSMobileRedirect.js urls:
 
 Open JSMobileRedirect.js file and set up your stores links:
 
